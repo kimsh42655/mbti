@@ -1,0 +1,61 @@
+.wrap {
+  background-color: #ffffd7;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 15vmin;
+}
+.page {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  background-color: #ffe6a8;
+  margin: auto;
+  top: 4%;
+  border-radius: 15%;
+  box-shadow: 0 5px 18px -7px rgba(0,0,0,1);
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  margin: 17vh auto;
+}
+p {
+  height: 20%;
+  padding: 0 4vw;
+  margin: 12vh auto 10vh auto;
+  font-size: 6vmin;
+  text-align: center;
+}
+button {
+  display: block;
+  padding: 0;
+  width: 20vmin;
+  height: 20vmin;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 0;
+  background-color: #e99f70;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 5vmin;
+  transition: all 0.2s;
+}
+button:hover {
+  box-shadow: 0px 0px 0px 5px #c75655;
+}
+.container {
+  display: flex;
+}
+.container > button {
+  padding: 0 2vw;
+  width: 30vmin;
+  height: 40vmin;
+  font-size: 4vmin;
+  border-radius: 20%;
+}
+.show {
+  display: flex;
+}
+.none {
+  display: none;
+}
