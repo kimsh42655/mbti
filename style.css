@@ -35,6 +35,7 @@ button {
   margin: 0 auto;
   border-radius: 50%;
   border: 0;
+  outline: none;
   background-color: #e99f70;
   font-family: 'Do Hyeon', sans-serif;
   font-size: 5vmin;
